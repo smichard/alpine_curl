@@ -18,5 +18,5 @@ run:
     export CURRENT_TIMESTAMP=$(date +"%Y%m%d%H%S")
     export CURRENT_VERSION=$(cat version/version)
     # Creating sample package file with a file name containing the new version number
-    tar -zcvf cloud_foundry_demo-$CURRENT_TIMESTAMP-$CURRENT_VERSION.tar.gz app_sources_production
-    cp cloud_foundry_demo-$CURRENT_TIMESTAMP-$CURRENT_VERSION.tar.gz artifact
+    tar -zcvf alpine_curl-$CURRENT_TIMESTAMP-$CURRENT_VERSION.tar.gz alpine_curl_sources
+    cp alpine_curl-$CURRENT_TIMESTAMP-$CURRENT_VERSION.tar.gz artifact
